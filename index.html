@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>twitter-login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="h-screen w-full py-12 px-4 font-[Roboto]">
+    <div class="max-w-[300px] mx-auto space-y-4 sm:space-y-6">
+      <img class="sm:h-8 h-6 mx-auto" src="./assets/twitter.png" alt="" />
+      <h1 class="md:text-4xl sm:text-3xl text-2xl text-center font-medium">
+        Sign in to Twitter
+      </h1>
+      <a
+        href=""
+        class="flex font-[Roboto] h-10 w-full justify-center items-center border rounded-full border-neutral-300 text-sm font-medium tracking-wide hover:bg-neutral-50 transition-colors"
+        ><img class="h-4 mx-2" src="./assets/search.png" alt="" /> Sign in with
+        Google</a
+      >
+      <a
+        href=""
+        class="flex font-[Roboto] h-10 w-full justify-center items-center border rounded-full border-neutral-300 text-sm font-medium tracking-wide hover:bg-neutral-100 transition-colors"
+        ><img class="h-4 mx-2" src="./assets/apple.png" alt="" /> Sign in with
+        Apple</a
+      >
+      <!-- divider -->
+      <div class="flex items-center">
+        <div class="h-[1px] w-full bg-neutral-300"></div>
+        <div class="mx-2">or</div>
+        <div class="h-[1px] w-full bg-neutral-300"></div>
+      </div>
+      <!-- input -->
+      <input
+        class="py-3 px-4 rounded border border-neutral-300 w-full"
+        type="text"
+        placeholder="Phone, email address or username"
+      />
+      <button
+        class="h-10 text-white bg-black hover:bg-black/90 transition-colors w-full py-2 rounded-full font-medium tracking-wide capitalize"
+      >
+        next
+      </button>
+      <a
+        class="flex font-[Roboto] h-10 w-full justify-center items-center border rounded-full border-neutral-300 font-medium hover:bg-neutral-100 transition-colors"
+        href=""
+        >Forgot password?</a
+      >
+      <div class="flex space-x-2">
+        <p class="text-neutral-500">Don't have an account?</p>
+        <a class="text-sky-400 hover:underline" href="">Sign up</a>
+      </div>
+    </div>
+  </body>
+</html>
